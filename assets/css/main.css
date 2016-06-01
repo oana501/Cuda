@@ -1,0 +1,402 @@
+@font-face{
+	font-family: Ttl;
+	src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face{
+	font-family: Ttlb;
+	src: url(../fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face{
+	font-family: Ttll;
+	src: url(../fonts/TitilliumWeb-Light.ttf);
+}
+
+@font-face{
+	font-family: Ttlsb;
+	src: url(../fonts/TitilliumWeb-Semibold.ttf);
+}
+
+#cuda .welcome{
+	background-image: url("../img/welcome.jpg");
+	background-size: cover;
+	height: 600px;
+	padding-top: 55px;
+	font-family: Ttl;
+}
+
+#cuda .wrapper{
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#cuda .wrapper nav li{
+	margin-left: 25px;
+}
+
+#cuda .wrapper nav a{
+	font-size: 16px;
+	color: white;
+}
+
+#cuda .wrapper nav .active a, #cuda .wrapper nav a:hover{
+	background-color: rgb(100,58,121);
+	border-radius: 3px;
+}
+
+#cuda .wrapper .hello{
+	text-align: center;
+	padding: 130px 0;
+}
+
+#cuda .wrapper h1{
+	font-family: Ttlb;
+	font-size: 42px;
+	color: white;
+	margin-bottom: 65px;
+}
+
+#cuda .wrapper .hello .btn-primary{
+	font-family: Ttlsb;
+	font-size: 18px;
+	color: white;
+	background-color: rgb(235,125,75);
+	padding: 20px 80px;
+	border-radius: 3px;
+	text-decoration: none;
+	border: none;
+	box-shadow: 0 6px 2px -2px rgb(200,106,64);
+}
+
+#cuda .hello .modal-header{
+	background-color: white;
+}
+
+#cuda .services{
+	background-image: url("../img/services.jpg");
+	background-size:cover;
+	color: white;
+	font-family: Ttl;
+	height: 745px;
+	text-align: center;
+	margin: 0;
+	margin-top: -20px;
+}
+
+#cuda .services h2{
+	font-family: Ttlb;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding-top: 110px;
+	letter-spacing: 3px;
+}
+
+#cuda hr{
+	width: 90px;
+	color: #aaa;
+	height: 4px;
+	border:none;
+	opacity: 0.3;
+}
+
+#cuda .services .text{
+	font-family: Ttl;
+	font-size: 18px;
+	margin-bottom: 60px;
+}
+
+#cuda .services .col-md-2{
+	margin-right: 50px;
+	padding: 0;
+	width: 20%;
+}
+
+#cuda .services .col-md-2 h3{
+	font-family: Ttlb;
+	font-size: 24px;
+}
+
+#cuda .services .col-md-2 .lor{
+	font-family: Ttll;
+	font-size: 16px;
+}
+
+#cuda .team{
+	background-image: url("../img/team.jpg");
+	background-size: cover;
+	height: 910px;
+	margin-top:-10px;
+}
+
+#cuda .team h4{
+	font-size: 42px;
+	font-family: Ttlb;
+	color: #3c4761;
+	padding-top: 110px;
+	letter-spacing: 3px;
+}
+
+#cuda .we{
+	font-size: 18px;
+	color: #3c4761;
+	margin-bottom: 70px;
+}
+
+#cuda .team .col-md-2{
+	margin-right: 55px;
+	padding: 0;
+	width: 20%;
+}
+
+#cuda .team h5{
+	font-family: Ttlb;
+	font-size: 24px;
+	color: #27283d;
+	margin-top:30px;
+}
+
+#cuda .team h6{
+	font-size: 16px;
+	color: #30bae7;
+}
+
+#cuda .team .teamtext{
+	font-family: Ttll;
+	font-size: 16px;
+	color: #3c4761;
+	margin: 20px 0;
+}
+
+#cuda .skills{
+	height: 660px;
+	background-image: url("../img/skills.jpg");
+}
+
+#cuda .skills h4{
+	font-family: Ttlb;
+	font-size: 40px;
+	color: #3c4761;
+	padding-top: 110px;
+}
+
+#cuda .skills .col-md-2{
+	margin-right: 55px;
+	padding: 0;
+	width: 20%;
+}
+
+#cuda .portfolio{
+	height: 1420px;
+	background-image: url("../img/potfolio.jpg");
+}
+
+#cuda .portfolio h4{
+	font-family: Ttlb;
+	color: #393939;
+	padding-top: 110px;
+	font-size: 42px;
+	letter-spacing: 3px;
+}
+
+#cuda .portfolio .por{
+	font-size: 18px;
+	color: #393939;
+}
+
+#cuda .portfolio .app{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+#cuda .portfolio .app li{
+	background-color: rgb(235,201,133);
+	margin-right: 10px;
+	margin-left: 0;
+	border-radius: 3px;
+}
+
+ #cuda .portfolio .app .active a, #cuda .portfolio .app a:hover{
+ 	background-color: white;
+ }
+
+ #cuda .portfolio .app a{
+ 	color: #393939;
+ }
+
+ #cuda .portfolio .table td{
+ 	padding-top: 40px;
+ 	border-top: none;
+ }
+
+ #cuda .portfolio button{
+ 	margin-top: 70px;
+ 	background-color: rgb(23,194,164);
+ 	border: none;
+ 	box-shadow: 0 6px 2px -2px rgb(20,165,140);
+ }
+
+ #cuda .testimonial{
+ 	background-image: url("../img/pink.jpg");
+ 	height: 900px;
+ 	margin-top: -10px;
+ 	color: white;
+ }
+
+ #cuda .testimonial h4{
+ 	font-family: Ttlb;
+ 	font-size: 42px;
+ 	padding-top: 110px;
+ 	letter-spacing: 3px;
+ }
+
+ #cuda .testimonial .client{
+ 	font-size: 18px;
+ }
+
+ #cuda .testimonial .quote{
+ 	font-size: 21px;
+ 	font-family: Ttl;
+ 	margin-bottom: 30px;
+ }
+
+ #cuda .testimonial .table{
+ 	text-align: justify;
+ 	margin-top: 60px;
+ 	border:none;
+ }
+
+ #cuda .testimonial .table td{
+ 	border: none;
+ 	padding-left: 30px;
+ 	padding-bottom: 120px;
+ }
+
+ #cuda .testimonial .table h5{
+ 	font-size: 24px;
+ 	margin-top: 10px;
+ 	font-family: Ttlb;
+ }
+
+ #cuda .testimonial .table h6{
+ 	font-size: 18px;
+ 	color: #ffdd99;
+}
+
+#cuda .gettouch{
+	background-image: url("../img/touch.jpg");
+	height: 825px;
+	margin-top: -20px;
+	color: white;
+}
+
+ #cuda .gettouch h4{
+ 	font-family: Ttlb;
+ 	font-size: 42px;
+ 	padding-top: 110px;
+ 	letter-spacing: 3px;
+ }
+
+ #cuda .gettouch .ttext{
+ 	font-size: 18px;
+ }
+
+ #cuda .gettouch form{
+ 	margin: 60px 0;
+ }
+
+ #cuda .gettouch .form-control{
+ 	background-color: rgb(39,58,113);
+ 	width: 410px;
+ 	border-radius: 3px;
+ 	border: none;
+ 	margin-left: 0;
+ 	margin-right: -57px;
+ 	margin-bottom: 25px;
+ }
+
+ #cuda .gettouch .form-control1{
+ 	background-color: rgb(39,58,113);
+ 	width: 853px;
+ 	border-radius: 3px;
+ 	border: none;
+ 	margin-right: -80px;
+ 	margin-bottom: 55px;
+ 	text-indent: 10px;
+ }
+
+ #cuda .gettouch button{
+ 	background-color: rgb(48,186,231);
+ 	border: none;
+ 	padding: 20px 80px;
+ 	color: white;
+ 	box-shadow: 0 6px 2px -2px rgb(41,158,197);
+ }
+
+ #cuda .gettouch input[required] + label{
+ 	position: relative;
+ 	left: -340px;
+ 	top: -10px;
+ }
+
+ #cuda .gettouch input[required] + label:after{
+    content:'*';
+    color: red;
+}
+
+ #cuda .gettouch input[required]:invalid + label {
+    display: inline-block;
+}
+
+ #cuda .gettouch input[required]:valid + label{
+    display: none;
+}
+
+ #cuda .gettouch ::-webkit-input-placeholder {
+ 	color: white;
+ }
+
+ #cuda .gettouch textarea[required] + label{
+ 	position: relative;
+ 	left: -760px;
+ 	top: -225px;
+ }
+
+ #cuda .gettouch textarea[required] + label:after{
+    content:'*';
+    color: red;
+}
+
+ #cuda .gettouch textarea[required]:invalid + label {
+    display: inline-block;
+}
+
+ #cuda .gettouch textarea[required]:valid + label{
+    display: none;
+}
+
+ #cuda .gettouch ::-webkit-input-placeholder {
+ 	color: white;
+ }
+ #cuda footer{
+ 	background-image: url("../img/footer.jpg");
+ 	height: 120px;
+ 	margin-top: -10px;
+ 	padding-top: 40px;
+ }
+
+ #cuda footer .col-md-1{
+ 	margin: 0 30px;
+ }
+
+ #cuda footer a{
+ 	font-family: Ttlsb;
+ 	font-size: 24px;
+ 	color: white;
+ }
+
+ #cuda footer a:hover, #cuda footer .activex{
+ 	color: rgb(48,186,231);
+ 	text-decoration: none;
+ }
